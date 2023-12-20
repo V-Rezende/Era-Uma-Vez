@@ -159,16 +159,7 @@ body, html {
 .tucano:hover{
     -webkit-animation: shake 1s ease-in-out
     .1s infinite alternate;
-}
-
-@-webkit-keyframes shake{
-    from{
-        -webkit-transform: rotate(10deg);
-    }
-    to{
-        -webkit-transform: rotate(-10deg);
-        -webkit-transform-origin: center center;
-    }
+    cursor: pointer;
 }
 
 .tatu-box {
@@ -215,16 +206,7 @@ body, html {
 .tatu:hover{
     -webkit-animation: shake 1s ease-in-out
     .1s infinite alternate;
-}
-
-@-webkit-keyframes shake{
-    from{
-        -webkit-transform: rotate(10deg);
-    }
-    to{
-        -webkit-transform: rotate(-10deg);
-        -webkit-transform-origin: center center;
-    }
+    cursor: pointer;
 }
 
 .tamandua-box {
@@ -271,6 +253,7 @@ body, html {
 .tamandua:hover{
     -webkit-animation: shake 1s ease-in-out
     .1s infinite alternate;
+    cursor: pointer;
 }
 
 @-webkit-keyframes shake{
@@ -719,9 +702,6 @@ body, html {
 }
 
 .tucano-card .card-content a{
-    position: relative;
-    left: 85px;
-    top: 20px;
     width: 40%;
 }
 
@@ -760,7 +740,7 @@ body, html {
 .tatu-card img{
     object-fit: cover;
     width: auto;
-    height: 40%;
+    height: 45%;
     border-right: 1px solid #1e4394;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
@@ -770,13 +750,10 @@ body, html {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 60%;
+    height: 55%;
 }
 
 .tatu-card .card-content a{
-    position: relative;
-    left: 85px;
-    top: 40px;
     width: 40%;
 }
 
@@ -830,16 +807,14 @@ body, html {
 }
 
 .tamandua-card .card-content a{
-    position: relative;
-    left: 80px;
-    top: 20px;
     width: 40%;
 }
 
 .card-title h3{
-    font-size: medium;
+    font-size: large;
     font-family: Preahvihear;
     color: #090958;
+    padding-top: 20px;
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -847,6 +822,7 @@ body, html {
 .card-description p{
     font-size: small;
     color: #090958;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
@@ -927,6 +903,5 @@ body, html {
     padding-bottom: 20px;
     color: #090958;
 }
-
 }
 
