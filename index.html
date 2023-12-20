@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Era Uma Vez</title>
+
+    <link rel="icon" type="image/svg" href="./assets/Arara.Azul.png"/>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=Great+Vibes&family=IBM+Plex+Sans:wght@100&family=Montserrat:wght@200&family=Open+Sans:wght@300;400;500&family=Orbitron:wght@500&family=Preahvihear&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <!------------Navbar---------->
+    <nav class="navbar navbar-expand-lg fixed-top" id="home">
+        <div class="container-fluid">
+              <a class="navbar-brand"  href="#"><img src="./assets/Era_uma_vez_logo-4.png" alt="logo"></a>
+
+            <div class="navbar-list">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#classes">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSdj6OC5JOfd8vK7n58XkGczXsT0tBnzmL9208M3L4iQchgkiA/viewform"
+                          target="_blank"
+                          rel="noopener">
+                          Booking
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!------------ MOBILE MENU ------------>
+    <div clas="mobile-menu">
+      <nav class="responsive-navbar fixed-top">
+          <div>
+            <a href="#"><img class="responsive-navbar-brand" src="./assets/Era_uma_vez_logo-4.png" alt="logo"></a>
+          </div>
+          <div class="responsive-nav-list">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" font-size-base="* 1.25" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#classes">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Info</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdj6OC5JOfd8vK7n58XkGczXsT0tBnzmL9208M3L4iQchgkiA/viewform"
+                      target="_blank"
+                      rel="noopener">
+                      Booking
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact Us</a>
+                </li>
+              </ul>
+          </div>
+          <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./assets/hamburger-menu-50.png" alt="icon"></button>
+          </div>
+      </nav>
+    </div>
+
+
+    <!------------Carousel---------->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="./assets/pexels-naomi-shi-1001914.jpg" class="d-block w-100" alt="Kids1">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pexels-lina-kivaka-1741230.jpg" class="d-block w-100" alt="Kids2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/pexels-cottonbro-studio-3662666.jpg" class="d-block w-100" alt="Kids3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!------------Main Container---------->
+    <div class="container">
+          <div class="description">
+            <h1 class="about" id="about" >Era Uma Vez - Brazilian Early Learning</h1>
+              <p class="para1">
+                At Era Uma Vez we promote children with the experience of a Brazilian childhood. Era Uma Vez allows children who have a Brazilian background and Portuguese as a Heritage language to connect with the Brazilian culture through Brazilian music, folk stories, traditional games, cooking experiences, and language! We provide Portuguese classes in small and large groups, during our sessions, children explore Portuguese in a  fun, diverse, creative, and respectful way. Children connect and immerse themselves in the Brazilian Culture during our sessions as well as build positive and strong relationships with peers with similar backgrounds.
+              </p>
+              <p class="para2">
+                We strongly believe in the attachment theory, which means the core of our program is affection, and building positive and strong relationships with children.  We believe that children learn best when they feel safe, secure, and included. We respect each child's pace and listen to the children's needs and interests to be embedded in our program.
+              </p>
+          </div>
+
+          <div class="classes">
+            <h1 class="classes-title" id="classes" >Classes</h1> 
+          </div>
+
+          <div class="classes-description">
+
+            <div class="tucano-box">
+                <img class="tucano" src="./assets/Tucano.png" alt="Tucano">
+
+                <div class="tucano-card">
+                    <img class="tucano-classe" src="./assets/turma2.JPG" alt="Tucano babies">
+                    <div class="card-content">
+                        <div class="card-title">
+                          <h3>Tucano</h3>
+                        </div>
+                        <div class="card-description">
+                          <p>Tucano Group (babies and toddlers): It is all about connecting to our roots and family, together we connect to the Brazilian Culture and language through literacy, music, movement, art, and sensory activities. This class also allows parents to reconnect to their childhood and affectionate memories. In addition, the purpose of this group is also to connect parents so they can develop a sense of community and support network.</p>
+                        </div>
+                        <a
+                          class="btn btn-success"
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSdj6OC5JOfd8vK7n58XkGczXsT0tBnzmL9208M3L4iQchgkiA/viewform"
+                          target="_blank"
+                          role="button"
+                          rel="noopener">Book a Trial</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tatu-box">
+              <img class="tatu" src="./assets/Tatu.png" alt="Tatu">
+
+              <div class="tatu-card">
+                  <img class="tatu-classe" src="./assets/turma3.JPG" alt="Tatu toddlers">
+                  <div class="card-content">
+                      <div class="card-title">
+                        <h3>Tatu-Bola</h3>
+                      </div>
+                      <div class="card-description">
+                        <p>Tatu-Bola Group (3,5 to 5,5 years old): It is all about exploring the Brazilian culture through folk stories, literacy, music and movement,  traditional games, exploring vocabulary through play and cooking experiences. We also focus on supporting children in developing positive relationships with the language and the culture by providing a positive and respectful environment to learn.</p>
+                      </div>
+                      <a
+                        class="btn btn-success"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdj6OC5JOfd8vK7n58XkGczXsT0tBnzmL9208M3L4iQchgkiA/viewform"
+                        target="_blank"
+                        role="button"
+                        rel="noopener">Book a Trial</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="tamandua-box">
+                <img class="tamandua" src="./assets/Tamandua.png" alt="Tucano">
+
+                <div class="tamandua-card">
+                    <img class="tamandua-classe" src="./assets/turma1.jpg" alt="Tucano kids">
+                    <div class="card-content">
+                        <div class="card-title">
+                          <h3>Tamandua</h3>
+                        </div>
+                        <div class="card-description">
+                          <p>Tucano Group (babies and toddlers): It is all about connecting to our roots and family, together we connect to the Brazilian Culture and language through literacy, music, movement, art, and sensory activities. This class also allows parents to reconnect to their childhood and affectionate memories. In addition, the purpose of this group is also to connect parents so they can develop a sense of community and support network.</p>
+                        </div>
+                        <a
+                          class="btn btn-success"
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSdj6OC5JOfd8vK7n58XkGczXsT0tBnzmL9208M3L4iQchgkiA/viewform"
+                          target="_blank"
+                          role="button"
+                          rel="noopener">Book a Trial</a>
+                    </div>
+                </div>
+          </div>
+
+          </div>
+
+          <div class="info-title">
+            <h1 class="info" id="info" >Information</h1>
+          </div>
+
+          <div class="info-description">
+
+              <div class="info-left">
+                <h4>The benefits of participating in the Brazilian Early Learning.</h4>
+                <h5>In the program, children will...</h5>
+                  <ul>
+                      <li>Develop a positive and fun relationship with the Portuguese language,</li>
+                      <li>Build strong relationships with peers who have similar background,</li>
+                      <li>Explore the Portuguese language in a variety of ways, such as through arts, music, literacy, play, cooking, games, outdoor play and much more!</li>
+                      <li>Children will immerse themselves in the Brazilian Culture,</li>
+                      <li>Develop their Social and Emotional skills,</li>
+                      <li>Develop their Resilience, Problem-solving and Creativity skills.</li>
+                  </ul>
+              </div>
+
+              <div class="info-right">
+                <h4>Classes Timing: Saturday morning</h4>
+                  <ul>
+                    <li>Tucano group (babies to 3 years old) - 8:00 am to 8:45 am</li>
+                    <li>Tatu-Bola group (3,5 to 5,5 years old) - 9:00 am to 11:00 am</li>
+                    <li>Tamandua group (6 to 10 years old) - 11:10am to 13:10am</li>
+                  </ul>
+                  <h5>Classes Address: Lutwyche, Brisbane</h5>
+                  <p id="contactus"><strong>Email us: <em>eraumavezaus@gmail.com</em></strong></p>
+              </div>
+          </div>
+      </div>
+
+      <footer class="bg-dark mt-2 p-2 text-white text-center">
+        <p>&copy; Era Uma Vez - Brazilian Early Learning</p>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj6OC5JOfd8vK7n58XkGczXsT0tBnzmL9208M3L4iQchgkiA/viewform"
+          target="_blank" class="text-white" rel="noopener" >Contact Us</a></p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
