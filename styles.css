@@ -477,7 +477,8 @@ body, html {
 .tamandua-box {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 40% 60%;
+    height: auto;
     margin-top: 40px;
     box-shadow: 4px 4px 4px 4px rgb(0,0,0,0.2);
 }
@@ -527,6 +528,7 @@ body, html {
     color: #090958;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
@@ -702,6 +704,8 @@ body, html {
 }
 
 .tucano-card .card-content a{
+    position: relative;
+    left: 70px;
     width: 40%;
 }
 
@@ -754,6 +758,9 @@ body, html {
 }
 
 .tatu-card .card-content a{
+    position: relative;
+    top: 15px;
+    left: 70px;
     width: 40%;
 }
 
@@ -807,6 +814,9 @@ body, html {
 }
 
 .tamandua-card .card-content a{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
     width: 40%;
 }
 
@@ -825,6 +835,7 @@ body, html {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
     text-align: justify;
 }
 
